@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -lt | grep -v '^d' | tail -n +2 | tr -s ' ' | cut -d' ' -f9 | head -n 10
